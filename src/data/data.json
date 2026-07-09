@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nombre": "Ana García", "edad": 25 },
+  { "id": 2, "nombre": "Carlos López", "edad": 32 },
+  { "id": 3, "nombre": "María Rodríguez", "edad": 28 }
+]

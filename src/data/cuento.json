@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "texto": "Te despiertas en un claro del bosque. El aire es fresco y huele a pino. Ves una cabaña al norte y un sendero que se adentra al este.",
+    "imagen": "https://picsum.photos/seed/bosque1/800/600",
+    "doors": [
+      { "x": 300, "y": 20, "width": 180, "height": 80, "destino": 2, "texto": "Ir a la cabaña" },
+      { "x": 650, "y": 200, "width": 130, "height": 200, "destino": 3, "texto": "Seguir el sendero" }
+    ]
+  },
+  {
+    "id": 2,
+    "texto": "Entras en la cabaña. Está vacía, pero hay una puerta trasera que lleva a un jardín y una trampilla en el suelo que baja al sótano.",
+    "imagen": "https://picsum.photos/seed/cabana/800/600",
+    "doors": [
+      { "x": 100, "y": 300, "width": 130, "height": 180, "destino": 4, "texto": "Ir al jardín" },
+      { "x": 450, "y": 400, "width": 100, "height": 60, "destino": 5, "texto": "Bajar al sótano" }
+    ]
+  },
+  {
+    "id": 3,
+    "texto": "El sendero te lleva a un río cristalino. Puedes cruzarlo por un puente de madera o seguir la corriente río abajo.",
+    "imagen": "https://picsum.photos/seed/rio/800/600",
+    "doors": [
+      { "x": 200, "y": 150, "width": 200, "height": 80, "destino": 6, "texto": "Cruzar el puente" },
+      { "x": 500, "y": 400, "width": 150, "height": 100, "destino": 4, "texto": "Seguir la corriente" }
+    ]
+  },
+  {
+    "id": 4,
+    "texto": "Llegas a un jardín hermoso lleno de flores de colores. Una fuente en el centro brilla con la luz del sol. Hay un banco y una escalera de caracol.",
+    "imagen": "https://picsum.photos/seed/jardin/800/600",
+    "doors": [
+      { "x": 350, "y": 250, "width": 100, "height": 100, "destino": 1, "texto": "Tocar la fuente (vuelves al inicio)" },
+      { "x": 50, "y": 100, "width": 80, "height": 300, "destino": 6, "texto": "Subir la escalera" }
+    ]
+  },
+  {
+    "id": 5,
+    "texto": "El sótano está oscuro y húmedo. Ves un cofre antiguo en una esquina y un túnel que se extiende hacia la oscuridad.",
+    "imagen": "https://picsum.photos/seed/sotano/800/600",
+    "doors": [
+      { "x": 100, "y": 350, "width": 120, "height": 80, "destino": 6, "texto": "Abrir el cofre" },
+      { "x": 600, "y": 200, "width": 120, "height": 250, "destino": 1, "texto": "Entrar al túnel (vuelves al inicio)" }
+    ]
+  },
+  {
+    "id": 6,
+    "texto": "Has encontrado la salida del bosque. Ante ti se extiende un valle verde con un pueblo a lo lejos. ¡Has completado tu aventura!",
+    "imagen": "https://picsum.photos/seed/final/800/600",
+    "doors": [
+      { "x": 350, "y": 400, "width": 150, "height": 80, "destino": 1, "texto": "Volver a empezar" }
+    ]
+  }
+]
